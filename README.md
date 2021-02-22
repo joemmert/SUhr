@@ -1,1 +1,3 @@
 # SUhr
+
+Impressed by Max.K's Chronio watch I thought I'd give it a try and create my own MemoryLCD watch. However, I didn't want to follow his minimalistic approach, and instead add some features like BLE, vibration, backlight, accelerometer, magnetometer etc. It's based on an ATMega1284P, uses an RN4871 BLE module and a FLEx Lighting backlight. For time-keeping the asnychronous mode of Timer2 in the ATMega1284P is used with a 32.768kHz crystal, saving a separate RTC. Also I'm hoping to design a simple and cheap case that is nonetheless suitable for everyday use (protective glass, at least a little water resistant, fully waterproof/resistant probably not feasible for me).
